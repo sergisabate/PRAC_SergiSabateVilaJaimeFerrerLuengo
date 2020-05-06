@@ -1,1 +1,11 @@
+import csv
 
+ 
+
+with open('sequences.csv', newline='') as File:  
+
+    reader = csv.reader(File)
+
+    for row in reader:
+
+        print(row)
