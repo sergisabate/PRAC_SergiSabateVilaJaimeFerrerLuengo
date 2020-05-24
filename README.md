@@ -22,7 +22,7 @@ Tots es guardaran al directori "arxius_fasta/" amb el seu ID corresponent com a 
 alignment.py
 --------------------
 
--Codi en creació-
+[CODI EN CREACIÓ]
 
 Aquest programa busca comparar tots els arxius amb tots i crear una jerarquia de semblança entre ells.
 Hi ha moltes coses a tenir en compte per a duu a terme aquest .py. Comparant caràcter a caràcter mai seran semblants perquè a nivell
