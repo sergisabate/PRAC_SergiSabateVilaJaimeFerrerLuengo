@@ -3,7 +3,7 @@ import csv
 
 def read():
     m1 = open("sequences.csv", "r")
-    m2 = open("sequences2.csv", "w")
+    m2 = open("sequences2.csv", "w", newline='')
     m3 = open("Accesions.txt", "w")
     m1_csv = csv.reader(m1)
     m2_csv = csv.writer(m2)
@@ -15,7 +15,7 @@ def read():
         for x in locations_list:
             if not Geo_Location.find(x) == -1:
                 repetit = True
-        if len(Length) < 4 or Geo_Location == '':
+        if len(Length) < 5 or Geo_Location == '':
             repetit = True
         if not repetit:
             locations_list.append(Geo_Location)
